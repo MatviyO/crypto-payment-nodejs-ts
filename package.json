@@ -1,0 +1,36 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "nodejs, typescript, telegraf js, base telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "buid": "tsc",
+    "start": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatviyO/telegram-bon-template-nodejs-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatviyO/telegram-bon-template-nodejs-ts/issues"
+  },
+  "homepage": "https://github.com/MatviyO/telegram-bon-template-nodejs-ts#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.12.2",
+    "telegraf-session-local": "^2.1.1"
+  }
+}
