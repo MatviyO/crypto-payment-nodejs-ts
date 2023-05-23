@@ -26,9 +26,11 @@
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
+    "prisma": "^4.14.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@prisma/client": "^4.14.1",
     "dotenv": "^16.0.3",
     "telegraf": "^4.12.2",
     "telegraf-session-local": "^2.1.1"
